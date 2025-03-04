@@ -4,7 +4,7 @@
   "description": "API for the interview task for frontend developers",
   "main": "index.js",
   "scripts": {
-    "start": "json-server -c ./config.json -w ./db.json"
+    "start": "node api/index.js"
   },
   "license": "ISC",
   "dependencies": {
